@@ -1,0 +1,27 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [".js", ".jsx"]
+            }
+        ],
+        "linebreak-style": "off",
+        "semi": "error",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "comma-dangle": "off",
+        "indent": "off",
+        "react/jsx-indent": "off",
+        "no-tabs": 0,
+        "eol-last": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "max-len": "off"
+    },
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "parser": "babel-eslint"
+}
