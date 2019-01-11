@@ -1,12 +1,14 @@
 # NodeJS api to create and return pdf
 
-This is a simple api I wrote in node to create a PDF using pdfmake and post the results back to the client in base64 format
+This is a simple api I wrote in node to create a PDF using pdfmake and post the results back to the client in base64 format.
 
 ## How to use
 
-First run `npm install` to download the packages
+First run `npm install` to download the packages.
 
-Then run `npm start` to run the api, this will fire the api up on http://localhost:5001
+Then run `npm start` to run the api, this will fire the api up on http://localhost:5001, this runs with nodemon to support hot reloading.
+
+To start without hot reloading run `npm run start:production`.
 
 ## What is pdfmake?
 
@@ -27,14 +29,16 @@ e.g.
 ```
 {
     content: [
-        text: 'this is the title of the pdf',
-        style: 'header'
+        {
+            text: 'this is the title of the pdf',
+            style: 'header'
+        }
     ],
     styles: {
         header: {
             fontSize: 18,
             bold: true,
-            alignment: center
+            alignment: 'center'
         }
     }
 }
