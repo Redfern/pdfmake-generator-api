@@ -1,5 +1,7 @@
 # NodeJS api to create and return pdf
 
+[![Build Status](https://travis-ci.com/Redfern/pdfmake-generator-api.svg?branch=master)](https://travis-ci.com/Redfern/pdfmake-generator-api)
+
 This is a simple api I wrote in node to create a PDF using pdfmake and post the results back to the client in base64 format.
 
 ## How to use
