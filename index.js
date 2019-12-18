@@ -13,7 +13,7 @@ app.post('/v1/generate-pdf', (req, res) => {
     generatePdf(docDefinition, response => res.send(response)); // sends a base64 encoded string to client
 });
 
-const PORT = 5010;
+const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`); // eslint-disable-line
