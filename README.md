@@ -80,4 +80,4 @@ axios.post('http://localhost:5001/v1/generate-pdf', definition)
     })
 ```
 
-There will be many ways this could be done, this is just a was I have used it in react.
+There will be many ways this could be done, this is just a way I have used it in react.
